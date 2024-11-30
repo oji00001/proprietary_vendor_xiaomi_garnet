@@ -204,6 +204,54 @@ android_app_import {
 }
 
 android_app_import {
+  	name: "MobileFeliCaClient",
+  	owner: "xiaomi",
+  	apk: "proprietary/system_ext/app/MobileFeliCaClient/MobileFeliCaClient.apk",
+  	preprocessed: true,
+		presigned: true,
+  	dex_preopt: {
+  		enabled: false,
+  	},
+  	system_ext_specific: true,
+}
+  
+android_app_import {
+  	name: "MobileFeliCaMenuMainApp",
+  	owner: "xiaomi",
+  	apk: "proprietary/system_ext/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk",
+  	preprocessed: true,
+		presigned: true,
+  	dex_preopt: {
+  		enabled: false,
+  	},
+  	system_ext_specific: true,
+}
+  
+android_app_import {
+  	name: "MobileFeliCaSettingApp",
+  	owner: "xiaomi",
+  	apk: "proprietary/system_ext/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk",
+  	preprocessed: true,
+		presigned: true,
+  	dex_preopt: {
+  		enabled: false,
+  	},
+  	system_ext_specific: true,
+}
+  
+android_app_import {
+  	name: "MobileFeliCaWebPluginBoot",
+  	owner: "xiaomi",
+  	apk: "proprietary/system_ext/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk",
+  	preprocessed: true,
+		presigned: true,
+  	dex_preopt: {
+  		enabled: false,
+  	},
+  	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "ImsRcsService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
